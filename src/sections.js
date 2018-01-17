@@ -6,6 +6,7 @@ export default [
 			{
 				title: 'Lambro',
 				description: 'React, Redux',
+				inDevelopment: true,
 				lang: 'en',
 				mobileFriendly: true,
 				code: "https://github.com/dziegelewski/lambro",

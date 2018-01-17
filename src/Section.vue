@@ -10,6 +10,7 @@
 			:live="child.live"
 			:lang="child.lang"
 			:mobile-friendly="child.mobileFriendly"
+			:in-development="child.inDevelopment"
 		/>
 
 		<hr>

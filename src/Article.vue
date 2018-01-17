@@ -2,6 +2,7 @@
 		<article>
 				<h3>{{ title }} <span class="lang">({{ lang }})</span></h3>
 				<p>{{ description }}</p>
+				<p v-if="inDevelopment"><i>Project still in development</i></p>
 				<!-- <p v-if="mobileFriendly" class="mobile-friendly">try on mobile</p> -->
 				<div>
 					<a v-if="hasCode"
@@ -21,7 +22,7 @@
 <script>
 	export default {
 		name: 'Article',
-		props: ['title', 'description', 'code', 'live', 'lang', 'mobileFriendly'],
+		props: ['title', 'description', 'code', 'live', 'lang', 'mobileFriendly', 'inDevelopment'],
 		computed: {
 			hasCode() {
 				return this.code;
