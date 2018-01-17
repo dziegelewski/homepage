@@ -11,6 +11,8 @@
 			:lang="child.lang"
 			:mobile-friendly="child.mobileFriendly"
 		/>
+
+		<hr>
 		
 	</section>
 </template>
@@ -36,5 +38,10 @@
 </script>
 
 <style lang="scss">
+  h2 {
+      font-size: 1.8em;
+      font-weight: 400;
+      margin: 1em 0 .5em;
+    }
 
 </style>

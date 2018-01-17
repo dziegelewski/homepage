@@ -35,6 +35,26 @@
 </script>
 
 <style lang="scss">
+	    
+    article {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1em;
+    }
+
+    h3 {
+    	font-size: 1em;
+      margin: .5em 0;
+    }
+
+    p {
+      margin: 0 0 .5em;
+    }
+
+    a {
+      margin-right: .5em;
+    }
+
 	.lang {
 		color: #aaa;
 		font-size: 1em;

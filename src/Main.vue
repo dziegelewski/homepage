@@ -34,27 +34,4 @@ export default {
       font-size: 1.4em;
       padding: 0 1em;
     }
-
-    h2 {
-      font-size: 1.2em;
-      margin: 1em 0 .5em;
-    }
-    
-    article {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 1em;
-    }
-
-    h3 {
-      margin: .5em 0;
-    }
-
-    p {
-      margin: 0 0 .5em;
-    }
-
-    a {
-      margin-right: .5em;
-    }
 </style>
